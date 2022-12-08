@@ -152,8 +152,9 @@
     .right-area {
         width: 100%;
         max-width: 80rem;
-        margin-bottom: 14.4rem;
+        
         .main-text {
+            margin-bottom: 14.4rem;
             h2 {
                 max-width: 48.8rem;
                 color: $gray-600;
@@ -207,6 +208,47 @@
     
             }
 
+        }
+        .box-card {
+            width: 100%;
+            height: 41rem;
+            background: url("../img/bg-box-card-neon.svg") no-repeat center center;
+            border-radius: 1.2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-left: 5.9rem;
+            .text {
+                width: 100%;
+                max-width: 38rem;
+                h2 {
+                    color: #FFFFFF;
+                    margin-bottom: 1.1rem;
+                }
+                h3 {
+                    color: #FFFFFF;
+                    max-width: 32.7rem;
+                    margin-bottom: 0.8rem;
+                }
+                p {
+                    font-size: 1.6rem;
+                    line-height: 150%;
+                    color: #FFFFFF;
+                    margin-bottom: 3.1rem;
+                }
+                .btns {
+                    display: flex;
+                    align-items: center;
+                    button {
+                        &:not(:first-child) {
+                            margin-left: 1.6rem;
+                        }
+                    }
+                }
+            }
+            .image {
+               margin-right: -3.1rem;
+            }
         }
 
     }
