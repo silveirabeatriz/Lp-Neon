@@ -272,6 +272,20 @@
             width: auto;
             position: relative;
             bottom: 0;
+            .swiper-pagination-bullet {
+                background: $brand-yellow;
+                opacity: 0.3;
+                border-radius: 1.2rem;
+                transition: all .3s;
+
+                &:not(:first-child){
+                    margin-left: 0.4rem;
+                }
+                &-active {
+                    opacity: 1;
+                    width: 17.23px;
+                }
+            }
             }
     }
     .slide-depoimentos {
