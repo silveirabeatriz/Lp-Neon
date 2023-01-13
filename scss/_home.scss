@@ -345,10 +345,20 @@
     .image {
         position: relative;
         width: 100%;
-        max-width: 712px;
+        max-width: 71.2rem;
         height: 59.8rem;
+        margin-right: -38px;
+        left: 12.5rem;
         img {
             position: absolute;
+            &.mockup-01 {
+                left: 0;
+                bottom: 4.7rem;
+            }
+            &.mockup-02 {
+                top: 0.3rem;
+                left: 25.8rem;
+            }
             &.circle {
                 right: 0;
                 bottom: 0;
