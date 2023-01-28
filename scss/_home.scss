@@ -406,6 +406,65 @@
         }
 
     }
+    @include responsive(1200px) {
+        .left-area {
+            .ilustra-mockup {
+                .circle {
+                    display: none;
+                }
+            }
+        }
+        .right-area {
+            max-width: 65rem;
+            .main-text {
+                ul {
+                    li {
+                        .info {
+                            .txt {
+                                margin-left: 2rem;
+                            }
+                        }
+                    }
+                }
+            }
+            .box-card {
+                padding-left: 3.5rem;
+                .image { 
+                    margin-right: -1rem;
+            }   
+        }
+        }
+    }
+    @include responsive(991px) {
+        .container {
+            flex-direction: column-reverse;
+        }
+        .right-area {
+            max-width: 100%;
+            .main-text {
+                margin-bottom: 5.7rem;
+                h2 {
+                    text-align: center;
+                    margin: 0 auto;
+                    margin-bottom: 5.3rem;
+                    font-size: 3.6rem;
+                }
+                .btn {
+                    display: block;
+                    text-align: center;
+                    &:after {
+                        display: none;
+                    }
+                }
+            }
+            .box-card {
+                max-width: 94.7%;
+                .image {
+                    margin-right: -4rem;
+                }
+            }
+        }
+    }
 }
 
 .s-depoimentos {
