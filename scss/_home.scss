@@ -439,8 +439,18 @@
         .container {
             flex-direction: column-reverse;
         }
+        .left-area {
+            display: flex;
+            align-items: center;
+            max-width: 61rem;
+            margin: 0 auto;
+            .ilustra-mockup {
+                margin-bottom: 0;
+            }
+        }
         .right-area {
             max-width: 100%;
+            margin-bottom: 9.8rem;
             .main-text {
                 margin-bottom: 5.7rem;
                 h2 {
@@ -464,6 +474,7 @@
                 }
             }
         }
+       
     }
 }
 
